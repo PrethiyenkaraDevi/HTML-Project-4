@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background: url("https://img.freepik.com/free-photo/view-arrangement-with-keyboard-notebooks_23-2148847749.jpg") no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    overflow-x: hidden;
+    background-position: center;
+}
+form{
+    width: 480px;
+    height:750px;
+    position: absolute;
+    top: 100px;
+    left: 1200px;
+    background-color:rgba(9, 9, 9, 0.474);
+    border-radius: 5%;
+}
+h1{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    left:60px;
+    color: rgb(255, 255, 255);
+}
+.image
+{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top:80px;
+    left:190px ;
+}
+.Name input{
+    width: 280px;
+    height: 40px;
+    background-color:white;
+    border-style:ridge;
+    font-size: large;
+}
+.Name{
+    position: absolute;
+    top: 180px;
+    left: 90px;
+}
+.Email input{
+    width: 280px;
+    height: 40px;
+    background-color:white;
+    border-style:ridge;
+    font-size: large;
+}
+.Email{
+    position: absolute;
+    top: 250px;
+    left: 90px;
+}
+.College_Name input{
+    width: 280px;
+    height: 40px;
+    background-color:white;
+    border-style:ridge;
+    font-size: large;
+}
+.College_Name{
+    position: absolute;
+    top: 320px;
+    left: 90px;
+}
+.Department_Name input{
+    width: 280px;
+    height: 40px;
+    background-color: white;
+    border-style:ridge;
+    font-size: large;
+}
+.Department_Name{
+    position: absolute;
+    top: 390px;
+    left: 90px;
+}
+.Year input{
+    width: 280px;
+    height: 40px;
+    background-color:white;
+    border-style:ridge;
+    font-size: large;
+}
+.Year{
+    position: absolute;
+    top: 460px;
+    left: 90px;
+}
+.Phone_No input{
+    width: 280px;
+    height: 40px;
+    background-color: white;
+    border-style:ridge;
+    font-size: large;
+}
+.Phone_No{
+    position: absolute;
+    top: 530px;
+    left: 90px;
+}
+.Password input{
+    width: 280px;
+    height: 40px;
+    background-color:white;
+    border-style:ridge;
+    font-size: large;
+}
+.Password{
+    position: absolute;
+    top: 600px;
+    left: 90px;
+}
+.submit{
+    position: absolute;
+    top: 670px;
+    left: 190px;
+    font:bold;
+    width: 90px;
+    height: 40px;
+    border-radius: 30px;
+    transition-delay: 0.5s;
+    font-size: large;
+}
+button:hover{
+    color: rgb(139, 8, 8);
+}
